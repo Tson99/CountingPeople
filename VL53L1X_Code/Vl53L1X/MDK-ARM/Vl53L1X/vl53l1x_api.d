@@ -1,0 +1,9 @@
+vl53l1x\vl53l1x_api.o: ..\Drivers\Vl53L1X_ULD\VL53L1X_api.c
+vl53l1x\vl53l1x_api.o: ..\Drivers\Vl53L1X_ULD\VL53L1X_api.h
+vl53l1x\vl53l1x_api.o: ..\Drivers\Vl53L1X_ULD\vl53l1_platform.h
+vl53l1x\vl53l1x_api.o: ..\Drivers\Vl53L1X_ULD\vl53l1_types.h
+vl53l1x\vl53l1x_api.o: E:\Keil_v5\ARM\ARMCC\include\stdint.h
+vl53l1x\vl53l1x_api.o: E:\Keil_v5\ARM\ARMCC\include\stddef.h
+vl53l1x\vl53l1x_api.o: E:\Keil_v5\ARM\ARMCC\include\string.h
+vl53l1x\vl53l1x_api.o: E:\Keil_v5\ARM\ARMCC\include\stdio.h
+vl53l1x\vl53l1x_api.o: E:\Keil_v5\ARM\ARMCC\include\stdlib.h

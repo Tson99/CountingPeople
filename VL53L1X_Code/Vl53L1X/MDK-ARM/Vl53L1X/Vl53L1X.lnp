@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"vl53l1x\startup_stm32f103xb.o"
+"vl53l1x\main.o"
+"vl53l1x\stm32f1xx_it.o"
+"vl53l1x\stm32f1xx_hal_msp.o"
+"vl53l1x\stm32f1xx_hal_gpio_ex.o"
+"vl53l1x\stm32f1xx_hal_i2c.o"
+"vl53l1x\stm32f1xx_hal_tim.o"
+"vl53l1x\stm32f1xx_hal_tim_ex.o"
+"vl53l1x\stm32f1xx_hal_uart.o"
+"vl53l1x\stm32f1xx_hal.o"
+"vl53l1x\stm32f1xx_hal_rcc.o"
+"vl53l1x\stm32f1xx_hal_rcc_ex.o"
+"vl53l1x\stm32f1xx_hal_gpio.o"
+"vl53l1x\stm32f1xx_hal_dma.o"
+"vl53l1x\stm32f1xx_hal_cortex.o"
+"vl53l1x\stm32f1xx_hal_pwr.o"
+"vl53l1x\stm32f1xx_hal_flash.o"
+"vl53l1x\stm32f1xx_hal_flash_ex.o"
+"vl53l1x\system_stm32f1xx.o"
+"vl53l1x\vl53l1x_api.o"
+"vl53l1x\vl53l1x_calibration.o"
+"vl53l1x\vl53l1_platform.o"
+--library_type=microlib --strict --scatter "Vl53L1X\Vl53L1X.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Vl53L1X.map" -o Vl53L1X\Vl53L1X.axf

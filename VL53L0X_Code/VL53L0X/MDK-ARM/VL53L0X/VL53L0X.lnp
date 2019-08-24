@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"vl53l0x\startup_stm32f103xb.o"
+"vl53l0x\main.o"
+"vl53l0x\stm32f1xx_it.o"
+"vl53l0x\stm32f1xx_hal_msp.o"
+"vl53l0x\stm32f1xx_hal_gpio_ex.o"
+"vl53l0x\stm32f1xx_hal_i2c.o"
+"vl53l0x\stm32f1xx_hal_tim.o"
+"vl53l0x\stm32f1xx_hal_tim_ex.o"
+"vl53l0x\stm32f1xx_hal_uart.o"
+"vl53l0x\stm32f1xx_hal.o"
+"vl53l0x\stm32f1xx_hal_rcc.o"
+"vl53l0x\stm32f1xx_hal_rcc_ex.o"
+"vl53l0x\stm32f1xx_hal_gpio.o"
+"vl53l0x\stm32f1xx_hal_dma.o"
+"vl53l0x\stm32f1xx_hal_cortex.o"
+"vl53l0x\stm32f1xx_hal_pwr.o"
+"vl53l0x\stm32f1xx_hal_flash.o"
+"vl53l0x\stm32f1xx_hal_flash_ex.o"
+"vl53l0x\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "VL53L0X\VL53L0X.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "VL53L0X.map" -o VL53L0X\VL53L0X.axf
